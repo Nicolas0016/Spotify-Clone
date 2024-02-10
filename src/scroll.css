@@ -1,0 +1,19 @@
+.Scroll {
+    overflow-y:inherit;
+    scrollbar-color: rgb(100 100 100 / 0.5) transparent ;
+    scrollbar-width: thin;
+  }
+.HEADER{
+  position: sticky;
+  top: 0;
+  animation: menu linear both;
+  animation-timeline: scroll();
+  animation-range: 0 120px;
+  z-index: 100;
+}
+@keyframes menu {
+  to{
+    background-color: #272727;
+  }
+  
+}
