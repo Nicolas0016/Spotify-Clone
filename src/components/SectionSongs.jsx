@@ -5,7 +5,7 @@ import { Playlist } from "./Playlist";
 import { Header } from "./HeaderSection";
 export function SectionSong() {
   return (
-    <main className="bg-gradient-to-t from-white/5 from-70% to-white/15 h-full w-full rounded-xl overflow-y-scroll Scroll">
+    <main className="bg-gradient-to-t from-white/5 from-70% to-white/15 h-full max-w-[80vw] rounded-xl overflow-y-scroll Scroll">
       
       <section className="ps-5 pe-4 relative">
         <Routes>

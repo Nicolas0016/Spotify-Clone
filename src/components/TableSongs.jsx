@@ -30,7 +30,7 @@ export function TableSongs({ song }) {
                     <td className="px-4 py-2 text-lg text-white">
                         <div className="flex gap-5 items-center">
                             <picture>
-                                <img className="w-[50px] rounded-lg" src={cancion.songUrl} alt="" />
+                                <img className="w-[50px] rounded-lg" src={cancion.photoSong} alt="" />
                             </picture>
                             <strong>{cancion.titleSong}</strong>
                         </div>

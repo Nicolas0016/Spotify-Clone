@@ -73,14 +73,16 @@ export function GitHubIcon() {
         </svg>
     )
 }
-export function UserIcon(){
-    return(
-        <span  data-testid="username-first-letter" data-encore-id="text" style="background-color: rgb(25, 230, 140); color: rgb(0, 0, 0); line-height: 24px;">N</span>
-    )
-}export function Verify(){
-    return(
+export function UserIcon() {
+    return (
+        <span data-testid="username-first-letter" data-encore-id="text" style={{ backgroundColor: "rgb(25, 230, 140)", color: "rgb(0, 0, 0)", lineHeight: "24px" }}>N</span>
+    );
+}
+
+export function Verify() {
+    return (
         <svg fill="#3d91f4" data-encore-id="icon" role="img" aria-hidden="true" height={HEIGHT} viewBox="0 0 24 24"><path d="M10.814.5a1.658 1.658 0 0 1 2.372 0l2.512 2.572 3.595-.043a1.658 1.658 0 0 1 1.678 1.678l-.043 3.595 2.572 2.512c.667.65.667 1.722 0 2.372l-2.572 2.512.043 3.595a1.658 1.658 0 0 1-1.678 1.678l-3.595-.043-2.512 2.572a1.658 1.658 0 0 1-2.372 0l-2.512-2.572-3.595.043a1.658 1.658 0 0 1-1.678-1.678l.043-3.595L.5 13.186a1.658 1.658 0 0 1 0-2.372l2.572-2.512-.043-3.595a1.658 1.658 0 0 1 1.678-1.678l3.595.043L10.814.5zm6.584 9.12a1 1 0 0 0-1.414-1.413l-6.011 6.01-1.894-1.893a1 1 0 0 0-1.414 1.414l3.308 3.308 7.425-7.425z"></path></svg>
-    )
+    );
 }export function Like({fill, stroke}){
     return(
         <svg fill={fill} stroke={stroke}  xmlns="http://www.w3.org/2000/svg" height={HEIGHT} viewBox="0 0 24 24" strokeWidth={1.5}  className="w-6 h-6">
@@ -93,4 +95,32 @@ export function UserIcon(){
         <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height={30}><path d="M4.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm15 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-7.5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path></svg>
 
     )
+}
+export function CancionAleatoria({height}){
+    return(
+        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" height={height}><path d="M13.151.922a.75.75 0 1 0-1.06 1.06L13.109 3H11.16a3.75 3.75 0 0 0-2.873 1.34l-6.173 7.356A2.25 2.25 0 0 1 .39 12.5H0V14h.391a3.75 3.75 0 0 0 2.873-1.34l6.173-7.356a2.25 2.25 0 0 1 1.724-.804h1.947l-1.017 1.018a.75.75 0 0 0 1.06 1.06L15.98 3.75 13.15.922zM.391 3.5H0V2h.391c1.109 0 2.16.49 2.873 1.34L4.89 5.277l-.979 1.167-1.796-2.14A2.25 2.25 0 0 0 .39 3.5z"></path><path d="m7.5 10.723.98-1.167.957 1.14a2.25 2.25 0 0 0 1.724.804h1.947l-1.017-1.018a.75.75 0 1 1 1.06-1.06l2.829 2.828-2.829 2.828a.75.75 0 1 1-1.06-1.06L13.109 13H11.16a3.75 3.75 0 0 1-2.873-1.34l-.787-.938z"></path></svg>
+    )
+}
+export function VolverCancion({ height }){
+    return(
+        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" height={height} fill="currentColor"><path d="M3.3 1a.7.7 0 0 1 .7.7v5.15l9.95-5.744a.7.7 0 0 1 1.05.606v12.575a.7.7 0 0 1-1.05.607L4 9.149V14.3a.7.7 0 0 1-.7.7H1.7a.7.7 0 0 1-.7-.7V1.7a.7.7 0 0 1 .7-.7h1.6z"></path></svg>    
+    )
+}
+export function SkipCancion({height}){
+    return(
+        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" height={height}><path d="M12.7 1a.7.7 0 0 0-.7.7v5.15L2.05 1.107A.7.7 0 0 0 1 1.712v12.575a.7.7 0 0 0 1.05.607L12 9.149V14.3a.7.7 0 0 0 .7.7h1.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-1.6z"></path></svg>
+    )
+}
+export function RepetirCancion({height}){
+    return(
+        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" height={height}><path d="M0 4.75A3.75 3.75 0 0 1 3.75 1h8.5A3.75 3.75 0 0 1 16 4.75v5a3.75 3.75 0 0 1-3.75 3.75H9.81l1.018 1.018a.75.75 0 1 1-1.06 1.06L6.939 12.75l2.829-2.828a.75.75 0 1 1 1.06 1.06L9.811 12h2.439a2.25 2.25 0 0 0 2.25-2.25v-5a2.25 2.25 0 0 0-2.25-2.25h-8.5A2.25 2.25 0 0 0 1.5 4.75v5A2.25 2.25 0 0 0 3.75 12H5v1.5H3.75A3.75 3.75 0 0 1 0 9.75v-5z"></path></svg>
+    )
+}
+export function Pause( {height, fill}){
+    return(
+        <svg data-encore-id="icon" height={height} fill={fill} role="img" aria-hidden="true" viewBox="0 0 16 16" ><path d="M2.7 1a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7H2.7zm8 0a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-2.6z"></path></svg>
+    )
+}export function Volume({ height, fill}){
+    return(
+    <svg data-encore-id="icon" role="presentation" height={height} fill={fill} aria-label="Volumen alto" aria-hidden="true" id="volume-icon" viewBox="0 0 16 16" ><path d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.642 3.642 0 0 1-1.33-4.967 3.639 3.639 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.139 2.139 0 0 0 0 3.7l5.8 3.35V2.8l-5.8 3.35zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88z"></path><path d="M11.5 13.614a5.752 5.752 0 0 0 0-11.228v1.55a4.252 4.252 0 0 1 0 8.127v1.55z"></path></svg>)
 }

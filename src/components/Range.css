@@ -1,0 +1,23 @@
+
+  input[type="range"] {
+     -webkit-appearance: none;
+     outline: none;
+      background: #ffffff30;
+      overflow: hidden;
+      border-radius: 15px;
+      position: relative;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+     appearance: none;
+     height: 12px;
+     width: 12px;
+     border-radius: 50%;
+     background-color: #fff;
+     box-shadow: -405px 0 0 400px #fff;
+  }
+  input[type="range"]::-webkit-slider-thumb:hover{
+    
+    box-shadow: -400px 0 0 400px #1db954;
+  }
