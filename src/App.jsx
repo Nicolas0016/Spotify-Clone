@@ -12,10 +12,10 @@ function App() {
           '" aside  section section"' +
           '" footer footer footer"'
       }}>
-        <aside className='rounded-xl flex flex-col gap-2 w-[23vw] ' style={{ gridArea: 'aside' }}>
+        <aside className='rounded-xl w-full flex flex-col gap-2  ' style={{ gridArea: 'aside' }}>
           <MenuAside></MenuAside>
         </aside>
-        <section className='h-[82vh]' style={{ gridArea: 'section' }}>
+        <section className='h-[82vh] w-full' style={{ gridArea: 'section' }}>
           <SectionSong></SectionSong>
         </section>
         <footer style={{ gridArea: 'footer' }}>

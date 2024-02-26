@@ -2,7 +2,6 @@ import { API_ARTISTS } from "../mocks/artis";
 import { Link } from "react-router-dom";
 import "./Artists.css";
 import { CardPlayButton } from "./CardPlayButton";
-
 export function Artists({ tipoFiltrado }) {
   const artists = API_ARTISTS();
 
@@ -11,7 +10,7 @@ export function Artists({ tipoFiltrado }) {
     : artists;
   
  return (
-    <ul className="flex flex-wrap gap-6 py-6">
+    <ul className="flex justify-around flex-wrap gap-6 py-6">
       {filteredArtists.map((artist) => (
         <li
           className={`group cursor-pointer bg-white/5 hover:bg-white/15 relative rounded-lg ${artist.tipo === 'Emisora' ? 'pt-1 pb-2 px-2' : 'pt-3 pb-7 px-3'}`}
