@@ -1,8 +1,11 @@
-# React + Vite
+# Spotify Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de clon de Spotify desarrollado con React, Zustand, Tailwind CSS y React Router. Proporciona una experiencia funcional similar a la de Spotify, permitiendo a los usuarios explorar artistas, álbumes y reproducción de música.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Exploración de música:** Los usuarios pueden buscar artistas y álbumes utilizando la barra de búsqueda.
+- **Reproducción de música:** Los usuarios pueden reproducir, pausar y saltar canciones.
+- **Estado global con Zustand:** Utilizamos Zustand para manejar el estado global de la aplicación de forma sencilla y eficiente.
+- **Diseño responsivo con Tailwind CSS:** La aplicación está diseñada con Tailwind CSS para lograr un diseño moderno y adaptable a diferentes dispositivos.
+- **Navegación con React Router:** Utilizamos React Router para manejar la navegación entre diferentes páginas de la aplicación.
