@@ -91,7 +91,7 @@ export function Footer() {
           </a>
         </li>
         <li className="p-[8px] bg-white/10 hover:bg-white/20 rounded-full">
-          <a href="">
+          <a href="https://github.com/Nicolas0016/Spotify-Clone">
             <GitHubIcon></GitHubIcon>
           </a>
         </li>
